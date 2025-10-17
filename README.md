@@ -16,8 +16,12 @@ Welcome to my **Data Analytics Portfolio**! This repository is a collection of m
 
 ## 📌 How to Use This Repository
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/Cyber-Trinity/Data-Analysis.git
-cd data-analysis
+Navigate to a specific project to know more about the project
 
+---
+
+📧 Contact
+
+Email: jdjatassiba@gmail.com
+LinkedIn: https://www.linkedin.com/in/joeldjatassiba/
+Portfolio:https://cyber-trinity.github.io/joeldjatassiba/
