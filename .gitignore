@@ -4,6 +4,9 @@
 # Ignore specific file types
 *.csv
 
+# Ignore specific files
+Sample_requirements.txt
+
 # Ignore specific folders
 data/
 
