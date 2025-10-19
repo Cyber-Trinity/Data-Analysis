@@ -73,7 +73,7 @@ crime-in-los-angeles/
 
 `git clone https://github.com/Cyber-Trinity/Data-Analysis.git`
 
-`cd Data-Analysis/project-1`
+`cd Data-Analysis/Crime in Los Angeles`
 
 2. **Install dependencies**
 
