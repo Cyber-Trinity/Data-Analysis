@@ -48,13 +48,13 @@ crime-in-los-angeles/
 1. **Data Cleaning & Preprocessing**
    - Handle missing values
    - Convert date/time columns
-   - Encode categorical variables if needed
+   - Check data consistency
 
 2. **Exploratory Data Analysis (EDA)**
-   - Crime counts over time
+   - Temporal patterns (hour, day, month, year trends)
    - Crime type distribution
    - Heatmaps for geographic distribution
-   - Temporal patterns (hour, day, month trends)
+
 
 3. **Visualizations**
    - Static charts in notebooks (Matplotlib, Seaborn)
@@ -82,10 +82,7 @@ crime-in-los-angeles/
 
 3. **Run analysis notebooks**
 
-- Open Crime_Analysis.ipynb in Jupyter Notebook or VS Code
-
-cd dashboard
-streamlit run app.py   # or python app.py for Dash
+Open Crime_Analysis.ipynb in Jupyter Notebook or VS Code
 
 ---
 
