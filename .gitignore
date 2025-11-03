@@ -3,9 +3,11 @@
 
 # Ignore specific file types
 *.csv
+*.docx
 
 # Ignore specific files
 Sample_requirements.txt
+gitignore.txt
 
 # Ignore specific folders
 data/

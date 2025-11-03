@@ -36,9 +36,8 @@ crime-in-los-angeles/
 
 - Python 3.10+  
 - Pandas, NumPy for data manipulation  
-- Matplotlib, Seaborn for visualizations  
-- Plotly / Dash / Streamlit for interactive dashboards (optional)  
-- Jupyter Notebook for exploratory analysis
+- Matplotlib, Seaborn for visualizations   
+- Jupyter Notebook for analysis
 
 ---
 
@@ -53,16 +52,16 @@ crime-in-los-angeles/
 2. **Exploratory Data Analysis (EDA)**
    - Temporal patterns (hour, day, month, year trends)
    - Crime type distribution
-   - Heatmaps for geographic distribution
+   - Heatmaps for hourly distribution
 
 
 3. **Visualizations**
    - Static charts in notebooks (Matplotlib, Seaborn)
-   - Optional interactive dashboard (Plotly Dash or Streamlit) for dynamic exploration
 
 4. **Insights & Findings**
    - Top neighborhoods by crime frequency
    - Most common crime types
+   - Most 
    - Temporal trends in crime activity
 
 ---
