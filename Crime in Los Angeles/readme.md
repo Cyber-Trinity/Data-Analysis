@@ -87,7 +87,7 @@ Open Crime_Analysis.ipynb in Jupyter Notebook or VS Code
 
 ## 📑 Report
 
-A detailed project report is included as [Report_Crime_Analysis.pdf](https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/)
+A detailed project report is included as [Report_Crime_Analysis.pdf](https://github.com/Cyber-Trinity/Data-Analysis/blob/main/Crime%20in%20Los%20Angeles/Report_Crime_Analysis.pdf)
 
 It contains methodology, visualizations, findings, and key insights.
 
