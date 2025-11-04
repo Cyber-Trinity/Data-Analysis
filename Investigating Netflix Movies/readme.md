@@ -1,6 +1,6 @@
 # Investigating Netflix Movies
 
-![Crime Scene illustration](src/project-2.webp)
+![Crime Scene illustration](src/project-7.jpg)
 **Netflix**! What started in 1997 as a DVD rental service has since exploded into one of the largest entertainment and media companies.
 
 This project explores Netflix’s vast collection of movies and TV shows through data-driven insights. Using exploratory data analysis (EDA) techniques, I examined content distribution by genre, country, release year, and duration to uncover viewing trends and production patterns.
@@ -48,36 +48,37 @@ Investigating Netflix Movies/
 
 **1. Data Cleaning & Preprocessing**
 
-- Filled missing Vict Sex and Vict Descent with mode values
-- Replaced missing Weapon Desc with "UNKNOWN WEAPON/OTHER WEAPON"
-- Converted date/time columns into datetime format
-Extracted key temporal features: Year, Month, Day of Week, and Hour
-- Ensured data consistency across all categorical and numerical fields
+- Data Standardization: Columns like date_added and release_year are converted to consistent datetime objects.
+
+- Missing Value Handling: Missing entries in critical features like director and cast are imputed with an 'Unknown' placeholder to allow for comprehensive counting.
+
+- Feature Engineering: The duration column is standardized to minutes (Movies) and seasons (TV Shows) for quantitative comparison.
 
 **2. Exploratory Data Analysis (EDA)**
 
-- Temporal patterns (hourly, daily, monthly, yearly trends)
-- Spatial distribution by area/division
-- Victim demographic patterns (age, gender, descent)
-- Crime type frequency and trends over time
-- Heatmaps for hourly and weekday distribution
+- Temporal Analysis: Examination of the content release year vs. addition year to determine acquisition lag.
+
+- Geographical Concentration: Identification of top 10 content-producing countries and their specialization (Movies vs. TV Shows).
+
+- Personnel Trends: Analysis of the most prolific directors and cast members to identify key partners.
+
+- Content Characteristics: Distribution analysis of Movie Duration by Genre and the count of TV Show seasons.
 
 **3. Visualizations**
 
-- Static charts and plots using Matplotlib and Seaborn
-- Line, bar, and heatmap visualizations for Crimes by area, Crimes by time of day, Crimes by demographic group, and more.
+- Time-Series Plots: Line plots comparing titles released versus titles added over time.
+- Stacked Bar Charts: Visualization of the split between Movies and TV Shows across top countries.
+- Bar Charts: Ranking of Top Directors, Top Cast, and median Movie Duration per genre.
 
 **4. Insights & Findings**
 
-- Top neighborhoods: Central, Southwest, and 77th Street divisions show the highest crime frequencies.
+- Geographical Strategy: The United States is the largest content producer. India shows a strong focus on Movies, while Japan and South Korea specialize heavily in TV Shows (Anime and K-Dramas).
 
-- Most common crime types: Identity Theft, Simple Assault, and Burglary from Vehicle.
+- Content Acquisition: The majority of TV shows in the catalog are 1-Season titles, indicating a preference for mini-series, docuseries, or limited-run content.
 
-- Temporal trends: Crimes peak between 12:00–22:00, especially in summer months (May–August).
+- Personnel: The top cast list is dominated by Indian actors, confirming the massive volume of Bollywood content on the platform.
 
-- Demographics: Young adults (19–45) form the majority of victims; gender distribution is nearly equal.
-
-- Crime status: 82.8% of cases remain under investigation; only 7.2% resulted in arrests.
+- Movie Formats: The median duration for most feature film genres (Action, Drama, Sci-Fi) consistently falls in the 107–112 minute range.
 
 ---
 
