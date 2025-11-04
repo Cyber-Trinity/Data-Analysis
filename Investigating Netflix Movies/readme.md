@@ -1,7 +1,6 @@
 # Investigating Netflix Movies
 
-![Netflix illustration](src/Project-7.jpg)
-
+![Crime Scene illustration](src/project-7.jpg)
 **Netflix**! What started in 1997 as a DVD rental service has since exploded into one of the largest entertainment and media companies.
 
 This project explores Netflix’s vast collection of movies and TV shows through data-driven insights. Using exploratory data analysis (EDA) techniques, I examined content distribution by genre, country, release year, and duration to uncover viewing trends and production patterns.
