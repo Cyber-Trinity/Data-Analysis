@@ -1,0 +1,7 @@
+# Core libraries
+pandas==2.2.2
+numpy==1.26.4
+
+# Data visualization
+matplotlib==3.9.2
+seaborn==0.13.2

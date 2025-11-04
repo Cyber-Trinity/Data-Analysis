@@ -1,17 +1,19 @@
-# Crime in Los Angeles Analysis
+# Investigating Netflix Movies
 
-![Crime Scene illustration](src/project-1.jpg)
+![Crime Scene illustration](src/project-2.webp)
+**Netflix**! What started in 1997 as a DVD rental service has since exploded into one of the largest entertainment and media companies.
 
-Los Angeles, California 😎. The City of Angels. Tinseltown. The Entertainment Capital of the World! 
+This project explores Netflix’s vast collection of movies and TV shows through data-driven insights. Using exploratory data analysis (EDA) techniques, I examined content distribution by genre, country, release year, and duration to uncover viewing trends and production patterns.
 
-Known for its warm weather, palm trees, sprawling coastline, and Hollywood, along with producing some of the most iconic films and songs. However, as with any highly populated city, it isn't always glamorous and there can be a large volume of crime. That's where I can help!
-
-This project analyzes **crime patterns in Los Angeles** using the publicly available **Los Angeles Police Department (LAPD) crime dataset**. The goal is to identify trends, hotspots, and insights that can help understand crime distribution in the city. My insights will be useful to allocate resources effectively to tackle various crimes in different areas.
-
+**Key Objectives:**
+- Analyze the composition of Netflix’s catalog across different categories.
+- Identify trends in content production and release years.
+-  the most represented countries, directors, and genres.
+- Visualize insights with Python libraries such as Pandas, Matplotlib, and Seaborn.
 ---
 
 ## 🗂️ Project Structure
-Crime in Los Angeles/
+Investigating Netflix Movies/
 <br>
 ├── src/ # Project files and datasets (not included due to licensing)
 <br>
@@ -19,16 +21,16 @@ Crime in Los Angeles/
 <br>
 ├── requirements.txt # Dependencies
 <br>
-├── Report_Crime_Analysis.pdf # Summary report of findings.
+├── Report_Investigating_Netflix.pdf # Summary report of findings.
 <br>
 └── README.md # Project description (this file)
 
 ---
 
 ## 📌 Dataset
-- **Source:** [Los Angeles Open Data Portal](https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/)
-- **Description:** Includes crime reports with location, type, date, and other relevant attributes.
-- **Note:** The raw dataset is **not included** in this repository due to size and privacy. Sample or anonymized data can be used for reproducing the analysis.
+- **Source:** [DataCamp Projects – Investigating Netflix Movies](https://app.datacamp.com/)
+- **Description:** The dataset contains detailed information about Netflix’s catalog of movies and TV shows. Each record includes the show’s title, type, director, cast, country of origin, release year, date added to Netflix, duration, genre, and a brief description.
+- **Note:** The original dataset is available within the DataCamp Projects environment. Due to licensing and privacy restrictions, the raw dataset is not included in this repository.
 
 ---
 
@@ -85,7 +87,7 @@ Extracted key temporal features: Year, Month, Day of Week, and Hour
 
 `git clone https://github.com/Cyber-Trinity/Data-Analysis.git`
 
-`cd Data-Analysis/Crime in Los Angeles`
+`cd Data-Analysis/Investigating netflix Movies`
 
 2. **Install dependencies**
 
@@ -100,7 +102,7 @@ Open notebook.ipynb in Jupyter Notebook or VS Code
 
 ## 📑 Report
 
-A detailed project report is included as [Report_Crime_Analysis.pdf](https://github.com/Cyber-Trinity/Data-Analysis/blob/main/Crime%20in%20Los%20Angeles/Report_Crime_Analysis.pdf)
+A detailed project report is included as [Report_Investigating_Netflix.pdf](https://github.com/Cyber-Trinity/Data-Analysis/blob/main/Crime%20in%20Los%20Angeles/Report_Crime_Analysis.pdf)
 
 It contains methodology, visualizations, findings, and key insights.
 
@@ -110,8 +112,4 @@ It contains methodology, visualizations, findings, and key insights.
 
 - Raw datasets are not included
 
-- You can download the data from the LAPD Open Data Portal.
-
 - Code and notebooks are reproducible with sample data.
-
-- This analysis can be expanded for predictive modeling or advanced spatial analysis.

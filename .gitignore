@@ -11,6 +11,7 @@ gitignore.txt
 
 # Ignore specific folders
 data/
+0Sample/
 
 # Ignore system files
 .DS_Store
